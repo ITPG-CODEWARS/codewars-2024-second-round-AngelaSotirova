@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="style.css">
-/* Основни настройки */
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -8,7 +7,6 @@ body {
     padding: 0;
 }
 
-/* Централен контейнер за съдържанието */
 .container {
     max-width: 600px;
     margin: 50px auto;
@@ -19,14 +17,12 @@ body {
     text-align: center;
 }
 
-/* Заглавие */
 h1 {
     color: #333;
     font-size: 2em;
     margin-bottom: 20px;
 }
 
-/* Формулярен стил */
 input[type="url"] {
     width: 80%;
     max-width: 500px;
@@ -52,7 +48,6 @@ input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* Стил за съкратения URL */
 .shortened-url {
     font-size: 1.1em;
     color: #007bff;
@@ -61,7 +56,6 @@ input[type="submit"]:hover {
     display: inline-block;
 }
 
-/* Стил за QR кода */
 .qr-code img {
     margin-top: 10px;
     border: 2px solid #ddd;
@@ -69,7 +63,6 @@ input[type="submit"]:hover {
     border-radius: 8px;
 }
 
-/* Бутон за връщане към Home */
 .home-button {
     font-size: 16px;
     padding: 10px 20px;
@@ -88,7 +81,6 @@ input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* Анимации */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -100,7 +92,6 @@ input[type="submit"]:hover {
     }
 }
 
-/* Анимация за съдържанието */
 .container {
     animation: fadeIn 0.8s ease-in-out;
 }
